@@ -7,7 +7,7 @@ Beastmen - not started.
 
 Bretonnia - not started.
 
-Chaos - not started.
+Chaos - started.
 
 Chaos Dwarfs - not started.
 
