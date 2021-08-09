@@ -3,6 +3,7 @@
   <publications>
     <publication id="451d-2372-ffc4-cf50" name="The rulebook"/>
     <publication id="78e3-1ead-0759-9022" name="Ravening Hordes"/>
+    <publication id="4bf8-7528-c80c-b170" name="Warhammer Armies Chaos 2021"/>
   </publications>
   <costTypes>
     <costType id="fcac-3c52-8cf7-add0" name="pts" defaultCostLimit="-1.0" hidden="false"/>

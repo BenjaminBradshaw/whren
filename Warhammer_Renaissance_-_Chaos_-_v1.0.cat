@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84ca-c8f5-5310-4e45" name="Warhammer Renaissance - Chaos - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="84ca-c8f5-5310-4e45" name="Warhammer Renaissance - Chaos - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="9411-2672-4c47-b982" name="Warhammer Armies Chaos 2021"/>
+  </publications>
+  <sharedProfiles>
+    <profile id="a385-400d-2491-3099" name="Chaos Lord" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">9</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">9</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">5</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58d2-57e8-0c39-074f" name="Chaos Hero" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">8</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
