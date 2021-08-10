@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="84ca-c8f5-5310-4e45" name="Warhammer Renaissance - Chaos - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="9411-2672-4c47-b982" name="Warhammer Armies Chaos 2021"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="b9da-ae2a-5445-3b41" name="Chaos Marauders" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="64e1-bf48-6980-d44c" name="Chaos Marauders" publicationId="9411-2672-4c47-b982" page="9" hidden="false">
+          <description>Chaos Marauders with light armour and shields.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="676a-c176-1c95-cd3b" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7f2f-3a3c-4d35-ed73" name="Chaos Marauders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f69-429f-fcda-fbcc" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="780f-e67c-8800-5fda" name="Chaos Marauder" publicationId="9411-2672-4c47-b982" page="9" hidden="false" targetId="a899-60ca-53cb-1fbe" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c66b-d98a-20f5-c7ec" name="Chaos Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4f-b16b-dcf4-2f06" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="518a-3850-4394-d581" name="Chaos Champion " hidden="false" targetId="9f12-87ea-8c48-fbcd" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="543b-76d9-b2d0-1f0d" name="Chaos Armour" hidden="false" collective="false" import="true" targetId="7842-d6a0-ded8-85de" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf8f-a0c1-6e3c-e2ff" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cff6-c6f5-01c8-acce" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a93-d6a5-95af-aa84" name="Loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d96-1a77-bc26-27d9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fbc-f2e3-96e5-0fdc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-7b3c-4019-d96d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c0a8-b475-8c87-ea89" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe6-d14a-792f-4cb0" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f473-3b8d-6e89-f67a" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="b09e-6395-8536-f3c1" name="Flails" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="24bc-2654-d865-be4b" name="Flail" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="0d96-1a77-bc26-27d9" name="Sheilds" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6000-d021-7093-ce33" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="38c6-d7f7-acff-ee6b" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="0e51-cfe7-33fd-048b" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="1c4b-c82f-7f8d-5e00" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01db-d389-7efd-138b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="55c8-4fb6-1602-2b2a" name="Bow" hidden="false" targetId="b438-5e24-529c-3a0c" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="9689-828a-784e-bebb" name="Additional Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8f-600c-8309-11c6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="49f8-be5c-23eb-2e5c" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="19a5-3abb-1447-f2da" name="Musician" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5994-c9ee-b03e-2db5" name="Standard Bearer" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="7842-d6a0-ded8-85de" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2ed7-d28f-1517-6dd8" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="02e8-9ecc-e170-3ae7" name="Magic Item" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="4710-168e-00e1-0ced" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3801-b50c-d8b0-3f20" type="selectionEntryGroup"/>
+        <entryLink id="2ddd-9826-f6bd-2dbc" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="d034-1301-2ee0-681d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="76fe-59f8-4944-0d86" name="Chaos Magic Armour" publicationId="9411-2672-4c47-b982" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="6dcf-0b72-8514-aeb6" name="Chaos Armour" publicationId="9411-2672-4c47-b982" page="5" hidden="false">
+      <description>Chaos Armour may be combined with other Magic Armour. It is a suit of heavy armour that improves armour save by +1. Chaos Sorcerers may wear this armour and still cast spells.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="a385-400d-2491-3099" name="Chaos Lord" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">9</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">9</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">5</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58d2-57e8-0c39-074f" name="Chaos Hero" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">8</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="558d-46fd-a361-d6cd" name="Chaos BSB" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">7</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5018-d365-97cc-f21b" name="Chaos Sorcerer Lord" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="84df-48a1-1d76-efcc" name="Chaos Master Sorcerer" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38bd-26e4-fb35-68c3" name="Chaos Sorcerer Champion" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b23b-912d-2bb8-92e7" name="Chaos Sorcerer" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="903b-34a8-34c6-9596" name="Chaos Warhorse" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b30b-ef2f-f594-afaf" name="Manticore" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>A Manticore causes terror and can fly</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">7</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f83-5610-5aa9-e097" name="Chimera" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>The Three-headed Chimera can fly, causes terror, and makes one flaming breath attack S4</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">6</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">6</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">6</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c02-2198-1504-d0c1" name="Chaos Dragon" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>The Two-Headed Chaos Dragon can fly, causes terror, and has a 4+ scaly skin save. Both heads may use 
+breath attacks during the shooting phase. One head makes a flaming breath attack S4, while the other head 
+makes a poisonous breath attack S3 (no armour save).</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">7</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">7</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">8</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a55-694c-0a7c-2937" name="Juggernaut of Khorne" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>The Juggernaut of Khorne automatically hits and wounds with one of its two attacks</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">7</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">2</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d89a-08f5-d1a3-7ee2" name="Disc of Tzeentch" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>The Disc of Tzeentch can fly but cannot fly high when ridden</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">1</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbc8-bb4c-bb74-ebcd" name="Beast of Nurgle" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>As they have random movement, Beasts of Nurgle cannot march nor double their charge move. During 
+compulsory movement, they may declare a charge against all enemies presumably within line of sight and 
+within 18” (enemies may take normal charge reactions), then roll 3D6” to determine their movement allowance 
+this turn. They do not have to move their full movement allowance. Hits from Beasts of Nurgle allow no armour 
+save. Attempts at hitting Beasts of Nurgle (or their rider/chariot) in melee suffer -1 to hit.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">3D6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1D6</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a184-bd07-f38b-88d0" name="Steed of Slaanesh" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>A hit from a Steed of Slaanesh does not wound but grants the rider an automatic hit</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">12</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed6a-f7f8-19ce-de5a" name="Chaos Warrior" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="66e8-1079-855f-45bc" name="Chaos Beastmaster" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a899-60ca-53cb-1fbe" name="Chaos Marauder" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d60-7626-2f50-714a" name="Chaos Hound" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Stupid</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">7</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b96d-1ed0-b7ba-7c55" name="Ogre Mercenary" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Fear</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">2</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9f12-87ea-8c48-fbcd" name="Chaos Champion " publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">7</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="389d-c844-d41d-fdf8" name="Ogre Champion" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c6ea-2a76-eb0f-6fa5" name="Warhorse" publicationId="9411-2672-4c47-b982" page="9" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdbc-2e42-2505-e8c5" name="Heavy Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" typeId="ca6d-339e-39c2-b8d2" typeName="Chariot">
+      <comment>Impact Hits</comment>
+      <characteristics>
+        <characteristic name="Strength" typeId="3820-a54c-c67b-abfa">5</characteristic>
+        <characteristic name="Toughness" typeId="2408-f600-1e98-a23e">5</characteristic>
+        <characteristic name="Wounds" typeId="d181-16cf-2c77-ccd6">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a901-92ce-8901-2ce0" name="Chaos Spawn" publicationId="9411-2672-4c47-b982" page="11" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment> Fear, Unbreakable</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">2D6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">3</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1D6</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a18e-c0cd-294a-691e" name="Archaon" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Lord. Archaon must be the army general, and the army he commands must be made up of four different Chaos Warrior contingents of roughly equal size (none may be double the size of another), each serving one of the four major Chaos Powers. These four contingents united under Archaon’s leadership all have Archaeon as their general and may share the same battle standard. In this army, characters with different Marks of Chaos cannot position themselves in the same regiment. Any regiment Archaon joins becomes unbreakable. Even though Archaon is not a wizard you may draw a random Dark Magic or Chaos God spell in each of your own magic phases which Archaon may cast for free. Discard the spell when the magic phase ends, unless the spell remains in play, in which case it is discarded when it is ended. Discarded spells can be drawn again. Mark of Chaos Undivided. Archaeon is equipped with a shield, the Slayer of Kings, the Armour of Morkar, the Eye of Sheerian and rides the barded warhorse W’soraych. Slayer of Kings, WS10, S7, A7. Armour of Morkar, grants Archaon a 1+ armour save that cannot be improved. In addition, the strength of all attacks against Archaon is reduced by 2. Eye of Sheerian, in the beginning of the battle, roll 1D6 to determine the effect of this item: 1-2: no spells will affect Archaon. 3-4: All magic melee weapons ignore their magic properties when used against Archaon. 5-6: Archaon’s armour save is reduced to 2+, but he takes it on 2D6 (a roll of 2 always fails).</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">9</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">9</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">5</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10(+1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5248-d97d-7fc8-bcf8" name="Aekold Helbrass" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Hero. Blessed by Tzeentch with the Breath of Life, Aekold Helbrass will recover a lost wound on 4+ in the beginning of his turn. Even if slain he will recover a 
+wound and be reincarnated on the spot where he died on a roll of 5+. Models in base contact with Aekold Helbrass (friend or foe) will recover a wound on a roll of 6+. He is equipped with Chaos Armour, the Mark of Tzeentch, and the Windblade – which is magic double handed weapon. At the beginning of the battle, roll 1D6 to see the effect of this item: 1-2, Aekold can fly. 3-4: Always strike first. 5-6: May be used as a missile weapon (range 12”), roll to hit using Aekold’s BS, units hit suffer 1D6 S6 hits. Note that Aekold’s Mark of Tzeentch re-roll cannot be used to re-roll the Windblade result, nor the roll to see if he reincarnates after death. </comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">8</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3104-459a-4f31-640c" name="Count Mordrek" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Lord. Count Mordrek’s characteristics are generated randomly at the start of the battle. Mark of Chaos Undivided. Is equipped with Chaos Armour, Chaos Runeshield and the Sword of Change. Rides a barded Chaos Warhorse.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">1D6+4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">9</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">1D3+3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">1D3+3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1D6+1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10(+1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4640-62a7-cae8-a54e" name="Valnir the Reaper" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Hero. Where Valnir walks, disease and death follow. Nominate one enemy regiment at the beginning of the battle and roll 1D6 to determine from which ailment the regiment suffers. 1-3: Red Plague, 1D6 S3 hits with no armour save. 4-5: Brain fever, stupidity. 6: Black Rot, -1S to all members of the regiment. Valnir causes fear, is immune to psychology, hates all living enemies, regenerates on 4+. Is equipped with Chaos Armour, the Mark of Nurgle, the Gatherer of Souls, a magic flail with the following properties: The bearer never tires and thus receives +2S in every melee combat phase. Furthermore, for each 3 wounds inflicted by this weapon, the bearer may increase his WS, S or A by 1 point.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">8</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5(+1)</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0d03-64c9-b314-e05c" name="Dechala the Denied One" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Hero. Hates Khorne Daemons and Chaos Champions with the Mark of Khorne. At the beginning of each Chaos turn, Dechala may dance one of the following dances, lasting until the next Chaos turn. 1: The Praise of Slaanesh, enemies suffer -1 to hit with missile and melee attacks against her. 2: Dance of Destruction, Dechala gets +1 to hit in melee. 3: Daggerdance, Dechala may deflect three enemy attacks each time she gives up two of her own attacks. Dechala is equipped with additional hand weapons for her many arms (for at total of six attacks), Chaos Armour, the Mark of Slaanesh, the Elixir 
+of Damnation; living enemies suffering an unsaved wound cannot attack or cast spells against Dechala.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">8</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">7</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">10</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">4(+2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e83-7d16-206c-f2f7" name="Arbaal the Undefeated" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Lord. Arbaal must always issue challenges in the name of Khorne, and if he flees for whatever reason, he is turned into a Chaos Spawn. Even though he is a Chaos Champion of Khorne, Arbaal is not subject to frenzy. He is immune to psychology and fights with a random number of attacks each round. Wears Chaos Armour and rides the Hound of Khorne.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">9</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">8</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">6</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2D6</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c45-1ec9-960c-292a" name="Egrimm van Horstmann" publicationId="9411-2672-4c47-b982" page="21" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>Egrimm is a Chaos Sorcerer Lord. An army led by Egrimm always deploys last. He is equipped with Chaos Armour, the Mark of Tzeentch and the Crystal Skull. 
+Rides a Chaos Dragon. May take three additional magic items. 
+</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d08-eec0-b72d-c895" name="Chaos Dwarf Crewman" publicationId="9411-2672-4c47-b982" page="17" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">2</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85f5-970b-85b3-7ca7" name="Hellcannon Daemon" publicationId="9411-2672-4c47-b982" page="17" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <comment>The Hellcannon is a Daemon that works like a war machine. It is crewed by three Chaos Dwarfs. The Hellcannon shoots like a large stone thrower, with the addition that any regiment suffering just one casualty from a Hellcannon shot must take a panic test. Furthermore, shots from a Hellcannon are considered 
+magical. When the Hellcannon rolls a misfire, it does not fire, but immediately eats 1D3 crewmen. If all crewmen are slain the Daemon stops functioning as a war machine and becomes an independent monster with a random movement rate. In the owning player&apos;s compulsory movement phase, the Daemon will move towards and, if possible, charge the nearest model (friend and foe alike). The Daemon follows all the special rules for Daemons explained in the Chaos Daemons Army Book.</comment>
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">2D6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">3</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">5</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">6</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">5</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">4</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
