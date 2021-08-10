@@ -11,10 +11,6 @@
 </description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="c458-5777-0d48-15d9" name="Light Armour" publicationId="9411-2672-4c47-b982" page="9" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
-        <infoLink id="f10b-66bd-4be8-c6b8" name="Shield" publicationId="9411-2672-4c47-b982" page="9" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="676a-c176-1c95-cd3b" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
       </categoryLinks>
@@ -23,23 +19,116 @@
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f69-429f-fcda-fbcc" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="780f-e67c-8800-5fda" name="Chaos Marauder" publicationId="9411-2672-4c47-b982" page="9" hidden="false" targetId="a899-60ca-53cb-1fbe" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ecbe-2ecb-9780-3209" name="additional hand weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+        <selectionEntry id="c66b-d98a-20f5-c7ec" name="Chaos Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4f-b16b-dcf4-2f06" type="max"/>
+          </constraints>
           <infoLinks>
-            <infoLink id="1edf-4f71-efce-4f0b" name="Additional Hand Weapon" publicationId="9411-2672-4c47-b982" page="9" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+            <infoLink id="518a-3850-4394-d581" name="Chaos Champion " hidden="false" targetId="9f12-87ea-8c48-fbcd" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="543b-76d9-b2d0-1f0d" name="Chaos Armour" hidden="false" collective="false" import="true" targetId="7842-d6a0-ded8-85de" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf8f-a0c1-6e3c-e2ff" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cff6-c6f5-01c8-acce" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a93-d6a5-95af-aa84" name="Loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d96-1a77-bc26-27d9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fbc-f2e3-96e5-0fdc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-7b3c-4019-d96d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c0a8-b475-8c87-ea89" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe6-d14a-792f-4cb0" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f473-3b8d-6e89-f67a" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+                <infoLink id="1b84-19e3-de22-94cb" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b09e-6395-8536-f3c1" name="Flails" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="6.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="24bc-2654-d865-be4b" name="Flail" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+                <infoLink id="12fa-0384-ba09-1e37" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0d96-1a77-bc26-27d9" name="Sheilds" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6000-d021-7093-ce33" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="38c6-d7f7-acff-ee6b" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+                <infoLink id="0e51-cfe7-33fd-048b" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c4b-c82f-7f8d-5e00" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01db-d389-7efd-138b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="55c8-4fb6-1602-2b2a" name="Bow" hidden="false" targetId="b438-5e24-529c-3a0c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9689-828a-784e-bebb" name="Additional Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8f-600c-8309-11c6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="49f8-be5c-23eb-2e5c" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+                <infoLink id="3e5d-ce77-33e6-d3fe" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="19a5-3abb-1447-f2da" name="Musician" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
           <modifiers>
@@ -66,8 +155,120 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ceb-7ffb-fa82-e168" name="Chaos Marauder Horsemen" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="6499-377a-3104-ebe4" name="Chaos Marauder Horsemen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f603-fd31-232c-0d25" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e41e-07d2-686a-42bc" name="Chaos Marauder" hidden="false" targetId="a899-60ca-53cb-1fbe" type="profile"/>
+            <infoLink id="1d77-7de0-d39c-9141" name="Warhorse" hidden="false" targetId="c6ea-2a76-eb0f-6fa5" type="profile"/>
+            <infoLink id="0400-424d-4605-0f08" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="26.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7095-7a36-a9d5-6a85" name="Chaos Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f83-7c9f-e2f1-8b3a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3d4-4d36-d487-4c16" name="Chaos Armour" hidden="false" collective="false" import="true" targetId="7842-d6a0-ded8-85de" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="db86-8709-8186-957b" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f0a1-c260-1c59-5621" name="Loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="f007-731b-beef-3517">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c547-5492-85e3-be3b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4129-f107-8f1a-3f29" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f007-731b-beef-3517" name="Spears and Shields" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fcaf-d6b5-3199-bd2e" name="Spear" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
+                <infoLink id="95b7-bdb4-b34e-36c4" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0376-cea1-28c2-5e3e" name="Flails" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0c69-ca92-803d-c137" name="Flail" hidden="false" targetId="3fac-180b-0c3b-70d4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6072-4a4d-5212-9f53" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="23c6-4029-3fe3-2d83" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="7842-d6a0-ded8-85de" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2ed7-d28f-1517-6dd8" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02e8-9ecc-e170-3ae7" name="Magic Item" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="4710-168e-00e1-0ced" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3801-b50c-d8b0-3f20" type="selectionEntryGroup"/>
+        <entryLink id="2ddd-9826-f6bd-2dbc" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="d034-1301-2ee0-681d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="76fe-59f8-4944-0d86" name="Chaos Magic Armour" publicationId="9411-2672-4c47-b982" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="6dcf-0b72-8514-aeb6" name="Chaos Armour" publicationId="9411-2672-4c47-b982" page="5" hidden="false">
+      <description>Chaos Armour may be combined with other Magic Armour. It is a suit of heavy armour that improves armour save by +1. Chaos Sorcerers may wear this armour and still cast spells.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="a385-400d-2491-3099" name="Chaos Lord" publicationId="9411-2672-4c47-b982" page="7" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
       <characteristics>
