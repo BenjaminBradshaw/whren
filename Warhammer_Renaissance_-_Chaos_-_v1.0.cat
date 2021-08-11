@@ -513,11 +513,15 @@
       <infoLinks>
         <infoLink id="76a5-8e66-c2c1-d0fa" name="Beasts and Beastmasters" hidden="false" targetId="42aa-f583-5869-e2e2" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1df5-f183-4af0-a5d5" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7273-b4be-d818-a9ad" name="Chaos Hounds" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
             <infoLink id="7630-bb28-2c7f-2be1" name="Chaos Hound" hidden="false" targetId="5d60-7626-2f50-714a" type="profile"/>
             <infoLink id="c9a2-1ee7-329d-2d8e" name="Fast Cavalry" hidden="false" targetId="f104-69d9-f117-ba9b" type="rule"/>
+            <infoLink id="7b5d-fd55-6aa0-a0ee" name="Stupid" hidden="false" targetId="138b-ec1d-f080-4490" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
@@ -527,6 +531,12 @@
           <constraints>
             <constraint field="selections" scope="1118-82f9-af42-68b1" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="f803-5fb8-53c0-fd89" type="max"/>
           </constraints>
+          <rules>
+            <rule id="3ff0-9266-2423-d6fb" name="Chaos Beastmasters" hidden="false">
+              <description>Regiments of Chaos Hounds may be led by Chaos Beastmasters who must be positioned either in the front or in the rear rank. At the beginning of the game, the number of Beastmasters in the regiment may not exceed the number of Hounds. Such regiments cannot include standard bearers, musicians, or be joined by characters. 
+When shot at with normal missile fire using BS, randomise to see which type of model is hit, Hound or Beastmaster. Hounds are subject to stupidity, unless joined by Beastmasters</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="9dad-a05d-da4b-0ae7" name="Chaos Beastmaster" hidden="false" targetId="66e8-1079-855f-45bc" type="profile"/>
           </infoLinks>
@@ -535,6 +545,134 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="ebee-3f7a-fed5-dd45" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="264e-f93a-b6e0-b17e" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false">
+          <description>A Heavy Chariot pulled by two barded Chaos Warhorses, crewed by two Chaos Warriors with Chaos Armour and halberds (for a combined armour save of 3+). 
+
+Charging, fleeing and pursuing chariots make 
+impact hits when they enter base contact with the 
+enemy, or flee through friendly models. Impact hits are 1D6 hits (+2 if having scythed wheels). Impact hits are inflicted in the beginning of 
+the melee phase before other models have struck. Impact hits are distributed like shooting, so characters in large regiments will go unmolested.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a7c3-97fa-4237-6a73" name="Heavy Chariot" hidden="false" targetId="cdbc-2e42-2505-e8c5" type="profile"/>
+        <infoLink id="2789-cd90-2bb6-06a7" name="Chaos Warrior" hidden="false" targetId="ed6a-f7f8-19ce-de5a" type="profile"/>
+        <infoLink id="655a-586f-4249-77c7" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+        <infoLink id="699d-9f9d-2da5-e78a" name="Halberd" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b6f8-4c24-09d1-f66c" name="New CategoryLink" hidden="false" targetId="fc59-3c6f-195c-d608" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8570-0df9-9f94-551c" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a2c3-0680-a35f-f0c3" name="Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d830-c28a-9f1f-105c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7850-8c00-f726-19bf" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="00e3-cb97-d78e-51b9" name="Warhorses" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="50a9-434a-35bf-58bd" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                <infoLink id="4730-b3a0-2750-36a9" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="5ccc-12b3-5c04-0578" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="7066-9e46-6938-fd65" name="Juggernaut of Khorne" hidden="false">
+                  <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="6e83-d7f0-6b81-f261" name="Juggernaut of Khorne" hidden="false" targetId="4a55-694c-0a7c-2937" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="92a9-b2c9-406e-9bb7" name="Discs of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="d9d9-7025-f857-c912" name="Disc of Tzeentch" hidden="false">
+                  <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).  (the chariot can fly, but 
+not fly high)</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="eed3-37b9-ba07-2d5d" name="Disc of Tzeentch" hidden="false" targetId="d89a-08f5-d1a3-7ee2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c572-cca4-f190-7568" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="7598-61ad-1c85-d424" name="Beast of Nurgle" hidden="false">
+                  <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="72e0-6a42-e673-724a" name="Beast of Nurgle" hidden="false" targetId="fbc8-bb4c-bb74-ebcd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="51cc-caa0-cfbd-e07d" name="Steeds of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="bccd-f7c0-0ac8-9c5c" name="Steed of Slaanesh" hidden="false">
+                  <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="22bc-fe50-a352-7d0b" name="Steed of Slaanesh" hidden="false" targetId="a184-bd07-f38b-88d0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b0b-f7fa-f8f0-9d6f" name="Chaos Marauder Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5eb5-8cf3-d064-7a31" name="Chaos Marauder Chariot" hidden="false">
+          <description>A Heavy Chariot pulled by two Warhorses, crewed by two Chaos Marauders with light armour, spears and 
+shields (for a combined armour save of 5+)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8683-ee54-3c2f-356b" name="Heavy Chariot" hidden="false" targetId="cdbc-2e42-2505-e8c5" type="profile"/>
+        <infoLink id="9607-d047-b53c-92a9" name="Chaos Marauder" hidden="false" targetId="a899-60ca-53cb-1fbe" type="profile"/>
+        <infoLink id="fbc4-49c5-ae35-7862" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+        <infoLink id="5b35-2ca4-65c7-1e68" name="Spear" hidden="false" targetId="90ee-97a4-f5e8-5288" type="profile"/>
+        <infoLink id="67e4-4efd-a8e2-a9ff" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6542-ab21-ab43-960a" name="New CategoryLink" hidden="false" targetId="fc59-3c6f-195c-d608" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8e8f-2aec-f1a4-4061" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="90.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
