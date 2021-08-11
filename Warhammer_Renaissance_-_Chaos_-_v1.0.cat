@@ -241,6 +241,262 @@
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4dc8-813f-a633-9307" name="Chaos Warriors" publicationId="9411-2672-4c47-b982" page="10" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="a5c6-47ec-d5b2-9a9a" name="Chaos Warriors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db1f-f108-7330-a343" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3311-0ae2-2e44-a636" name="Chaos Warrior" hidden="false" targetId="ed6a-f7f8-19ce-de5a" type="profile"/>
+            <infoLink id="2e6f-c62c-d765-b813" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6fa6-5d64-3f4b-be26" name="Chaos Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3828-6900-cc9b-4fc3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="24e9-5a9f-e4c3-6bf5" name="Chaos Champion " hidden="false" targetId="9f12-87ea-8c48-fbcd" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="d3b8-bb41-42f1-58f0" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cc05-8248-ee70-7167" name="loadout" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="98b5-a6a1-5864-e6a3" name="Sheilds" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a097-a136-fb74-db1d" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="adda-d7bb-bd66-a646" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="b36e-5a7e-2639-6716" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="d679-afcd-4143-551f" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="bfce-3be1-fe28-1bfc" name="Halberd" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="fb54-21fc-8f4a-dca6" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="4.0"/>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="f808-ae69-00f2-daa5" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="595b-214e-4d47-c31f" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8b6d-e44d-180d-93f6" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a8c0-ee78-aa86-4e20" name="Ogre Mercenaries" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d163-2dc7-a055-f7e9" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7e68-6109-70e2-4efc" name="Ogre Mercenaries" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b783-123e-ce86-f7c8" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8e2c-1d32-029b-248c" name="Ogre Mercenary" hidden="false" targetId="b96d-1ed0-b7ba-7c55" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2cd7-50c3-d9ef-bee7" name="Ogre Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d51-c50d-e42c-1e43" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d976-ffa6-dca1-503d" name="Ogre Champion" hidden="false" targetId="389d-c844-d41d-fdf8" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="f6cb-a7b3-a18f-d160" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="22ef-9cfa-5597-fe5f" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec46-32bb-1d3d-bafa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2a2e-13df-9f7e-c787" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="9c3e-b43e-9d79-0f30" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="d506-0575-9e79-98cc" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0993-4321-60c7-ed8e" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fa3b-896c-0447-cfea" name="loadout" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587a-a310-08d4-36b3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="00d2-cb14-14eb-f69e" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e216-0020-104f-a988" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="17fa-71d2-b134-1f73" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="fcac-3c52-8cf7-add0" value="3.0"/>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="b5ae-8c12-a2e7-930e" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0735-62fb-58a9-ec23" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7df7-0728-7908-3981" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="fcac-3c52-8cf7-add0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="38fb-be76-15a9-bdf9" name="Chaos Knights" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f8a1-82e6-69fe-439b" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+        <infoLink id="06ed-55fc-0524-a6ba" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
+        <infoLink id="1f6e-dfa3-6a32-dd7a" name="Lance" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7a39-7bf1-3964-78c7" name="Chaos Knights" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e16-9ce5-5a0f-c8d6" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="17e2-ca46-7db2-a129" name="Chaos Warrior" hidden="false" targetId="ed6a-f7f8-19ce-de5a" type="profile"/>
+            <infoLink id="afbf-73e3-ff69-17fc" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b305-7ae0-9de1-e8b1" name="Chaos Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a155-ddfd-4770-1ea3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="92c0-39a6-37a7-f3bc" name="Chaos Champion " hidden="false" targetId="9f12-87ea-8c48-fbcd" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="b4a9-412c-c3ea-6f39" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="929b-12fe-6438-e3c4" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
+        <entryLink id="d3dd-f8f1-97da-d1ef" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="7842-d6a0-ded8-85de" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
