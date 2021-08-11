@@ -160,6 +160,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2ceb-7ffb-fa82-e168" name="Chaos Marauder Horsemen" publicationId="9411-2672-4c47-b982" page="9" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0e0d-5c9b-86e4-b34f" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6499-377a-3104-ebe4" name="Chaos Marauder Horsemen" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -242,6 +245,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4dc8-813f-a633-9307" name="Chaos Warriors" publicationId="9411-2672-4c47-b982" page="10" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="271d-2dbf-b2df-a5c4" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a5c6-47ec-d5b2-9a9a" name="Chaos Warriors" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -344,6 +350,9 @@
       <infoLinks>
         <infoLink id="d163-2dc7-a055-f7e9" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="67f0-9d24-b902-1aff" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7e68-6109-70e2-4efc" name="Ogre Mercenaries" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -464,6 +473,9 @@
         <infoLink id="06ed-55fc-0524-a6ba" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
         <infoLink id="1f6e-dfa3-6a32-dd7a" name="Lance" hidden="false" targetId="7d87-b9be-57ac-1e51" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a027-2ad8-3cd4-f97a" name="New CategoryLink" hidden="false" targetId="d54d-0a68-e41a-d537" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7a39-7bf1-3964-78c7" name="Chaos Knights" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -496,6 +508,33 @@
         <entryLink id="929b-12fe-6438-e3c4" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
         <entryLink id="d3dd-f8f1-97da-d1ef" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="1118-82f9-af42-68b1" name="Chaos Hounds" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="76a5-8e66-c2c1-d0fa" name="Beasts and Beastmasters" hidden="false" targetId="42aa-f583-5869-e2e2" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7273-b4be-d818-a9ad" name="Chaos Hounds" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="7630-bb28-2c7f-2be1" name="Chaos Hound" hidden="false" targetId="5d60-7626-2f50-714a" type="profile"/>
+            <infoLink id="c9a2-1ee7-329d-2d8e" name="Fast Cavalry" hidden="false" targetId="f104-69d9-f117-ba9b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="138e-4745-6695-69f9" name="Chaos Beastmasters" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="1118-82f9-af42-68b1" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="f803-5fb8-53c0-fd89" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9dad-a05d-da4b-0ae7" name="Chaos Beastmaster" hidden="false" targetId="66e8-1079-855f-45bc" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
