@@ -283,6 +283,9 @@
               <infoLinks>
                 <infoLink id="a097-a136-fb74-db1d" name="Shield" hidden="false" targetId="67a9-1f85-e760-1b76" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="adda-d7bb-bd66-a646" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -295,6 +298,9 @@
               <infoLinks>
                 <infoLink id="b36e-5a7e-2639-6716" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d679-afcd-4143-551f" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -307,6 +313,9 @@
               <infoLinks>
                 <infoLink id="bfce-3be1-fe28-1bfc" name="Halberd" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fb54-21fc-8f4a-dca6" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -315,6 +324,9 @@
               <infoLinks>
                 <infoLink id="f808-ae69-00f2-daa5" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -345,6 +357,9 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8c0-ee78-aa86-4e20" name="Ogre Mercenaries" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -397,6 +412,9 @@
               <infoLinks>
                 <infoLink id="9c3e-b43e-9d79-0f30" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d506-0575-9e79-98cc" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -409,6 +427,9 @@
               <infoLinks>
                 <infoLink id="0993-4321-60c7-ed8e" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -428,6 +449,9 @@
               <infoLinks>
                 <infoLink id="e216-0020-104f-a988" name="Additional Hand Weapon" hidden="false" targetId="7bc7-2d9b-cc33-dd88" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="17fa-71d2-b134-1f73" name="Double Handed Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -436,6 +460,9 @@
               <infoLinks>
                 <infoLink id="b5ae-8c12-a2e7-930e" name="Double Handed Weapon" hidden="false" targetId="b3f8-0c49-ca8e-18f4" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -466,6 +493,9 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="38fb-be76-15a9-bdf9" name="Chaos Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -508,6 +538,9 @@
         <entryLink id="929b-12fe-6438-e3c4" name="Musician" hidden="false" collective="false" import="true" targetId="7bc6-73aa-8535-d80c" type="selectionEntry"/>
         <entryLink id="d3dd-f8f1-97da-d1ef" name="Standard Bearer" hidden="false" collective="false" import="true" targetId="483e-1a5d-b243-f702" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1118-82f9-af42-68b1" name="Chaos Hounds" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -545,6 +578,9 @@ When shot at with normal missile fire using BS, randomise to see which type of m
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ebee-3f7a-fed5-dd45" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -585,6 +621,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
                 <infoLink id="50a9-434a-35bf-58bd" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
                 <infoLink id="4730-b3a0-2750-36a9" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5ccc-12b3-5c04-0578" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
@@ -674,6 +713,149 @@ shields (for a combined armour save of 5+)</description>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="90.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0703-940f-be7a-cbb7" name="Chaos Spaws" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0b0f-06d6-5747-db1b" name="Monsters" hidden="false" targetId="19f2-06aa-b776-0cdc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1af7-e3fc-5ffb-f292" name="Chaos Spawn" hidden="false" collective="false" import="true" type="model">
+          <rules>
+            <rule id="6817-0a3a-82b1-06a0" name="Chaos Spawn" hidden="false">
+              <description>“During the battle, models from both sides may suddenly turn into mindless Chaos Spawns. When this happens, all equipment and magic items and special rules held by the unfortunate model are lost. Upon its creation, the Chaos Spawn automatically moves 2D6 inches directly forward (unless already engaged in combat). As they have random movement, Chaos Spawns cannot march.The Chaos Spawn causes fear and is unbreakable. It fights with a random number of attacks (1D6) per combat round. Unless engaged in combat it moves a random number of inches (2D6) in a direction nominated by the Chaos player (no matter if the model previously belonged to the opponent of the Chaos player). The Chaos Spawn 
+will fight whatever unit it meets, friend or foe (except Daemons; just move the Chaos Spawn past the Daemon unit).”</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d5e6-5b38-fe60-21f3" name="Chaos Spawn" hidden="false" targetId="a901-92ce-8901-2ce0" type="profile"/>
+            <infoLink id="d7d1-d082-1369-1c0a" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
+            <infoLink id="58dd-3ff0-54be-4adb" name="Unbreakable" hidden="false" targetId="74dd-32b0-ef5d-d469" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3c8-5146-b6a6-d713" name="Archaeon, Lord of Chaos" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="9f09-b826-4f98-0038" name="Archaeon, Lord of Chaos" hidden="false">
+          <description>Lord. Archaon must be the army general, and the army he commands must be made up of four different Chaos Warrior contingents of roughly equal size (none may be double the size of another), each serving one of the four major Chaos Powers. These four contingents united under Archaon’s leadership all have Archaeon as their general and may share the same battle standard. In this army, characters with different Marks of Chaos cannot position themselves in the same regiment. Any regiment Archaon joins becomes unbreakable. Even though Archaon is not a wizard you may draw a random Dark Magic or Chaos God Spell in each of your own magic phases which Archaon may cast for free. Discard the spell when the magic phase ends, unless the spell remains in play, in which case it is discarded when it is ended. Discarded spells can be drawn again. Mark of Chaos Undivided. Archaeon is equipped with a shield, the Slayer of Kings, the Armour of Morkar, the Eye of Sheerian and rides the barded warhorse W’soraych. Slayer of Kings, WS10, S7, A7. Armour of Morkar, grants Archaon a 1+ armour save that cannot be improved. In addition, the strength of all attacks against Archaon is reduced by 2. Eye of Sheerian, in the beginning of the battle, roll 1D6 to determine the effect of this item: 1-2: no spells will affect Archaon. 3-4: All magic melee weapons ignore their magic properties when used against Archaon. 5-6: Archaon’s armour save is educed 
+to 2+, but he takes it on 2D6 (a roll of 2 always fails).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ae17-873c-6d2c-2417" name="Archaon" hidden="false" targetId="a18e-c0cd-294a-691e" type="profile"/>
+        <infoLink id="0b33-d47e-e056-17b2" name="Unbreakable" hidden="false" targetId="74dd-32b0-ef5d-d469" type="rule"/>
+        <infoLink id="1146-5d2b-f337-8bf1" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+        <infoLink id="a052-b9a8-a358-cb87" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2bf3-ee40-2290-bb07" name="Aekold Helbrass" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="bb04-f01a-6ba7-fc59" name="Aekold Helbrass" hidden="false">
+          <description>Hero. Blessed by Tzeentch with the Breath of Life, Aekold Helbrass will recover a lost wound on 4+ in the beginning of his turn. Even if slain he will recover a wound and be reincarnated on the spot where he died on a roll of 5+. Models in base contact with Aekold Helbrass (friend or foe) will recover a wound on a roll of 6+. He is equipped with Chaos Armour, the Mark of Tzeentch, and the Windblade – which is magic double handed weapon. At the beginning of the battle, roll 1D6 to see the effect of this item: 1-2, Aekold can fly. 3-4: Always strike first. 5-6: May be used as a missile weapon (range 12”), roll to hit using Aekold’s BS, units hit suffer 1D6 S6 hits. Note that Aekold’s Mark of Tzeentch re-roll cannot be used to re-roll the Windblade result, nor the roll to see if he reincarnates after death. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6f6f-e555-dae8-acb8" name="Aekold Helbrass" hidden="false" targetId="5248-d97d-7fc8-bcf8" type="profile"/>
+        <infoLink id="e05d-8384-1b0c-76be" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c4f-96de-7c6e-f53f" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abc8-417a-82a3-c05d" name="Count Mordrek the Damned" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="0c3d-ab00-94c9-ac9f" name="Count Mordrek the Damned" hidden="false">
+          <description>Lord. Count Mordrek’s characteristics are generated randomly at the start of the battle. Mark of Chaos Undivided. Is equipped with Chaos Armour, Chaos Runeshield and the Sword of Change. Rides a barded Chaos Warhorse. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aec0-c953-3b37-92e7" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+        <infoLink id="7c0a-c884-2744-c2b8" name="Chaos Runeshield " hidden="false" targetId="6dcb-7162-22c8-baf7" type="profile"/>
+        <infoLink id="8951-70e8-a85e-5792" name="Sword of Change" hidden="false" targetId="5231-6a0f-93a0-1e85" type="profile"/>
+        <infoLink id="d778-c08f-f48b-d592" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+        <infoLink id="2c2f-8963-d8c7-ac09" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+        <infoLink id="8e32-fde0-e062-7ef2" name="Count Mordrek" hidden="false" targetId="3104-459a-4f31-640c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="25c8-8c92-573c-b695" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="350.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6d2-9c9c-d556-0c70" name="Valnir the Reaper" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="b0fe-f935-4691-4640" name="Valnir the Reaper" hidden="false">
+          <description>Hero. Where Valnir walks, disease and death follow. Nominate one enemy regiment at the beginning of the battle and roll 1D6 to determine from which ailment the regiment suffers. 1-3: Red Plague, 1D6 S3 hits with no armour save. 4-5: Brain fever, stupidity. 6: Black Rot, -1S to all members of the regiment. Valnir causes fear, is immune to psychology, hates all living enemies, regenerates on 4+. Is equipped with Chaos Armour, the Mark of Nurgle, the Gatherer of Souls, a magic flail with the following properties: The bearer never tires and thus receives +2S in every melee combat phase. Furthermore, for each 3 wounds inflicted by this weapon, the bearer may increase his WS, S or A by 1 point.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d177-61c4-18ff-cd29" name="Valnir the Reaper" hidden="false" targetId="4640-62a7-cae8-a54e" type="profile"/>
+        <infoLink id="1822-956c-c17b-11a1" name="Immune to Psychology" hidden="false" targetId="a6de-b028-b395-5569" type="rule"/>
+        <infoLink id="7670-d0b2-6a93-219b" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+        <infoLink id="f660-a9c5-15da-93fe" name="Immune to Psychology" hidden="false" targetId="a6de-b028-b395-5569" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d1e5-381d-d77d-845e" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f32-3f73-6f14-06c6" name="Dechala the Denied One" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="85bd-4c38-06c5-9d82" name="Dechala the Denied One" hidden="false">
+          <description>Hero. Hates Khorne Daemons and Chaos Champions with the Mark of Khorne. At the beginning of each Chaos turn, Dechala may dance one of the following dances, lasting until the next Chaos turn. 1: The Praise of Slaanesh, enemies suffer -1 to hit with missile and melee attacks against her. 2: Dance of Destruction, Dechala gets +1 to hit in melee. 3: Daggerdance, Dechala may deflect three enemy attacks each time she gives up two of her own attacks. Dechala is equipped with dditional 
+hand weapons for her many arms (for at total of six attacks), Chaos Armour, the Mark of Slaanesh, the Elixir of Damnation; living enemies suffering an unsaved wound cannot attack or cast spells against Dechala.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5b87-b330-ce0b-7f8c" name="Dechala the Denied One" hidden="false" targetId="0d03-64c9-b314-e05c" type="profile"/>
+        <infoLink id="7fbe-154f-2395-a6bd" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4de9-075d-32c0-19a3" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7833-fae8-b548-7570" name="Arbaal the Undefeated" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c0c6-a92b-5032-e3bc" name="Arbaal the Undefeated" hidden="false" targetId="6e83-7d16-206c-f2f7" type="profile"/>
+        <infoLink id="2727-4b4f-9567-01ac" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+        <infoLink id="1e79-1f6f-33d2-abd1" name="Khorne’s Hound" hidden="false" targetId="8b42-79bf-b0e5-081e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efda-9e8a-f376-ca50" name="Egrimm van Horstmann" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="2202-1012-f66a-892c" name="Egrimm van Horstmann" hidden="false">
+          <description>Egrimm is a Chaos Sorcerer Lord. An army led by Egrimm always deploys last. He is equipped with Chaos Armour, the Mark of Tzeentch and the Crystal Skull. Rides a Chaos Dragon. May take three additional magic items.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9f84-8fc8-eae9-a599" name="Egrimm van Horstmann" hidden="false" targetId="3c45-1ec9-960c-292a" type="profile"/>
+        <infoLink id="b76f-d0e0-3916-69b0" name="Crystal Skull" hidden="false" targetId="801d-4459-c1ae-d5f9" type="profile"/>
+        <infoLink id="2849-afa6-9cf3-1c50" name="Chaos Dragon" hidden="false" targetId="0c02-2198-1504-d0c1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c433-a1c3-eedd-2c95" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a664-9716-f9e7-5ff2" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="7842-d6a0-ded8-85de" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -685,6 +867,92 @@ shields (for a combined armour save of 5+)</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="02e8-9ecc-e170-3ae7" name="Magic Item" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e105-0623-e4bb-5a22" name="Chaos Warror Magic Items" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b501-b45c-cf83-2e6e" name="Helm of Many Eyes " hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3546-9911-5274-76e8" name="Helm of Many Eyes" hidden="false" targetId="2ff1-a07f-e0b7-9e81" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f12-178d-4f24-a2dc" name="Crystal Skull" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9805-d213-ca8f-f0d2" name="Crystal Skull" hidden="false" targetId="801d-4459-c1ae-d5f9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e14-d08b-054a-a03f" name="Red Amulet " hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3e56-0c66-19ac-edcc" name="Red amulet" hidden="false" targetId="6159-1769-93bb-c98d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7bce-7c89-9397-1e21" name="Chaos Runesword" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4124-65a2-dc86-3c2c" name="Chaos Runesword" hidden="false" targetId="1fe1-a8e0-f86c-162d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a97-8b44-bab7-e52d" name="Crimson Armour of Dargan" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="76f8-2286-851a-8fb6" name="Crimson Armour of Dargan " hidden="false" targetId="aa17-9065-8ebb-fad4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42c9-f9b6-e45a-765c" name="Whip of Ecstasy" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0eff-f0a1-ed0a-8473" name="Whip of Ecstasy " hidden="false" targetId="82f2-8080-d108-8e57" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="084d-83d5-4d07-e637" name="Chaos Runeshield" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="abc8-21b6-ffd8-c6e8" name="Chaos Runeshield " hidden="false" targetId="6dcb-7162-22c8-baf7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5570-3430-281a-32e2" name="Spell Breaker Idol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="43a1-13c1-00dc-6190" name="Spell Breaker Idol" hidden="false" targetId="2710-fd43-8170-da27" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="435d-7297-6550-ffe2" name="Sword of Change" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3b80-96f7-d1fe-979c" name="Sword of Change" hidden="false" targetId="5231-6a0f-93a0-1e85" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bf1-f52b-74ab-4ece" name="Staff of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="08d5-4930-699f-e551" name="Staff of Nurgle" hidden="false" targetId="ff58-e3f9-a4c6-bf02" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4710-168e-00e1-0ced" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3801-b50c-d8b0-3f20" type="selectionEntryGroup"/>
         <entryLink id="2ddd-9826-f6bd-2dbc" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="d034-1301-2ee0-681d" type="selectionEntryGroup"/>
@@ -1167,6 +1435,72 @@ magical. When the Hellcannon rolls a misfire, it does not fire, but immediately 
         <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
         <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">5</characteristic>
         <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ff1-a07f-e0b7-9e81" name="Helm of Many Eyes" publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="ce53-2d2c-8872-2f43" typeName="Armour">
+      <characteristics>
+        <characteristic name="Armour Save" typeId="4ff6-21c0-92db-2679"/>
+        <characteristic name="Special Rules" typeId="2dc0-e00b-2607-2c71">Magic armour. Always strike first.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="801d-4459-c1ae-d5f9" name="Crystal Skull" publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. This alien artefact allows the wizard to cast a spell without spending power cards once per magic phase. After each use roll a die, on a roll of 1 the wizard turns into a Chaos Spawn. The second time the skull is 
+used, the bearer turns on a roll of 1 or 2, the third time on a roll of 1,2 or 3 and so forth. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6159-1769-93bb-c98d" name="Red amulet" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted Item. Dispels as a Dispel Magic Scroll. One use only. Champions with the Mark of Khorne only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1fe1-a8e0-f86c-162d" name="Chaos Runesword" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. +1 WS, +1 S, +1 attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa17-9065-8ebb-fad4" name="Crimson Armour of Dargan " publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic armour. Chaos Armour (4+ armour save). Enemies wishing to hit the bearer must each take a LD test on their own basic LD, if they fail, they forfeit all attacks this melee combat round</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="82f2-8080-d108-8e57" name="Whip of Ecstasy " hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. Additional hand weapon. The bearer makes one additional special attack. If the enemy is hit the enemy model will not strike any more in melee combat this round of melee combat. Slaanesh only.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6dcb-7162-22c8-baf7" name="Chaos Runeshield " publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic Armour. All magic melee weapons ignore their magic properties when used against the bearer. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2710-fd43-8170-da27" name="Spell Breaker Idol" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Enchanted item. May use magic cards and dispel spells like a level 4 wizard. Champions with the Mark of Khorne only. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5231-6a0f-93a0-1e85" name="Sword of Change" publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Magic weapon. A living enemy who suffers one wound (caused by this blade), but who is not killed, turns into a Chaos Spawn under the control of the Chaos player</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ff58-e3f9-a4c6-bf02" name="Staff of Nurgle" publicationId="9411-2672-4c47-b982" page="14" hidden="false" typeId="7d89-2e37-3285-dea8" typeName="Magic Item">
+      <characteristics>
+        <characteristic name="Rules" typeId="690b-2d5b-59ba-8039">Arcane item. Bound Spell. Chaos Champion with the Mark of Nurgle only. The spell may be cast upon any enemy model within 12&quot; of the bearer (and within line of sight). The target is slain automatically, his body breaks open, and a mass of putrid maggots spills out. No saves of any kind allowed. Every time the staff is used roll a 1D6. On the score of 1 or 2 the staff&apos;s magic is temporarily exhausted and it may not be used again that battle.
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8b42-79bf-b0e5-081e" name="Khorne’s Hound" publicationId="9411-2672-4c47-b982" page="12" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">6</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">5</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">10</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
