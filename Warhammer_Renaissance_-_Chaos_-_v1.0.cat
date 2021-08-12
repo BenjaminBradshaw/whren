@@ -40,6 +40,11 @@
               </constraints>
             </entryLink>
             <entryLink id="cff6-c6f5-01c8-acce" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+            <entryLink id="83e4-50b2-aaec-d0f5" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fa0-71a8-5778-4f92" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="40.0"/>
@@ -188,6 +193,11 @@
               </costs>
             </entryLink>
             <entryLink id="db86-8709-8186-957b" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+            <entryLink id="de0e-d693-0145-7e77" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d326-08d7-0c12-54d3" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="60.0"/>
@@ -270,6 +280,11 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="d3b8-bb41-42f1-58f0" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+            <entryLink id="c65b-b54c-69ff-8438" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012c-dfe3-335f-c6f2" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
@@ -528,6 +543,11 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="b4a9-412c-c3ea-6f39" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+            <entryLink id="beac-936c-5081-668e" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c374-acb2-d2fa-5bb6" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="90.0"/>
@@ -713,9 +733,9 @@ shields (for a combined armour save of 5+)</description>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0703-940f-be7a-cbb7" name="Chaos Spaws" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0703-940f-be7a-cbb7" name="Chaos Spawns" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="0b0f-06d6-5747-db1b" name="Monsters" hidden="false" targetId="19f2-06aa-b776-0cdc" primary="false"/>
+        <categoryLink id="0b0f-06d6-5747-db1b" name="Monsters" hidden="false" targetId="19f2-06aa-b776-0cdc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1af7-e3fc-5ffb-f292" name="Chaos Spawn" hidden="false" collective="false" import="true" type="model">
@@ -752,6 +772,12 @@ to 2+, but he takes it on 2D6 (a roll of 2 always fails).</description>
         <infoLink id="1146-5d2b-f337-8bf1" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
         <infoLink id="a052-b9a8-a358-cb87" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e07-7bdb-94fa-dbb7" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2bf3-ee40-2290-bb07" name="Aekold Helbrass" hidden="false" collective="false" import="true" type="model">
       <rules>
@@ -834,6 +860,9 @@ hand weapons for her many arms (for at total of six attacks), Chaos Armour, the 
         <infoLink id="2727-4b4f-9567-01ac" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
         <infoLink id="1e79-1f6f-33d2-abd1" name="Khorne’s Hound" hidden="false" targetId="8b42-79bf-b0e5-081e" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="67f6-43a8-e1a5-fe8b" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="300.0"/>
       </costs>
@@ -855,6 +884,469 @@ hand weapons for her many arms (for at total of six attacks), Chaos Armour, the 
       <entryLinks>
         <entryLink id="a664-9716-f9e7-5ff2" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69a6-a26f-bfd3-998f" name="Chaos Lord" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="b14f-49ec-9fd2-1db4" name="Chaos Lord" publicationId="9411-2672-4c47-b982" page="7" hidden="false" targetId="a385-400d-2491-3099" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="28a6-54a1-f4dc-8522" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2bd0-d571-dac6-3aff" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470c-24de-cf70-6540" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2511-fdc3-5856-e0a6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4de9-2cc2-4215-c001" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="32f1-e8d7-9066-007a" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="f6e1-73e6-a097-3456" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6a9c-d093-dc44-8ceb" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="34b6-cc9d-59e1-bcee" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="43b6-4715-84f0-18b0" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f57f-2e4f-e15d-05e5" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de7-1277-8011-7b8f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="760a-f12b-29b3-a6f4" name="Chaos Warhorse" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2dfe-bece-e65b-1e5e" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="e439-1d85-601e-4481" name="barding" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="5ccc-66c4-b8a8-978d" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b4a8-13fd-9521-aa53" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
+              <rules>
+                <rule id="4dbe-3a69-cd6d-bef5" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false">
+                  <description>A Heavy Chariot pulled by two barded Chaos Warhorses, crewed by two Chaos Warriors with Chaos Armour and halberds (for a combined armour save of 3+). 
+
+Charging, fleeing and pursuing chariots make 
+impact hits when they enter base contact with the 
+enemy, or flee through friendly models. Impact hits are 1D6 hits (+2 if having scythed wheels). Impact hits are inflicted in the beginning of 
+the melee phase before other models have struck. Impact hits are distributed like shooting, so characters in large regiments will go unmolested.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="7855-56d6-b305-9200" name="Heavy Chariot" hidden="false" targetId="cdbc-2e42-2505-e8c5" type="profile"/>
+                <infoLink id="a445-7de6-1e70-c5fe" name="Chaos Warrior" hidden="false" targetId="ed6a-f7f8-19ce-de5a" type="profile"/>
+                <infoLink id="6794-a7a6-9e6b-32e8" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+                <infoLink id="6602-a079-9cda-4120" name="Halberd" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="295d-1b4d-6b43-7e5b" name="New CategoryLink" hidden="false" targetId="fc59-3c6f-195c-d608" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="0bb2-795b-d44d-5f91" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="608f-fec3-0b8c-e6ed" name="Mounts" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05a-7f2f-e9e4-1016" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c4-24de-05a9-dd4e" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="ab80-d702-f843-1e4b" name="Warhorses" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="5907-2cb1-c1dc-5b2a" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                        <infoLink id="7cc9-77d6-d4cc-1429" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3282-aa2f-a86a-f6ca" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="c632-fcfd-6b6b-0c20" name="Juggernaut of Khorne" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="d182-e607-53f7-d773" name="Juggernaut of Khorne" hidden="false" targetId="4a55-694c-0a7c-2937" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0658-00cf-4cd8-1168" name="Discs of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="3f56-dccb-2df6-27ba" name="Disc of Tzeentch" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).  (the chariot can fly, but 
+not fly high)</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="c083-c091-012e-055c" name="Disc of Tzeentch" hidden="false" targetId="d89a-08f5-d1a3-7ee2" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="43da-40ea-e568-504c" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="8461-597f-2f38-41f5" name="Beast of Nurgle" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="7dcd-860c-522f-5ad8" name="Beast of Nurgle" hidden="false" targetId="fbc8-bb4c-bb74-ebcd" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d3a3-265b-aee1-5aca" name="Steeds of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="9937-67cc-81ad-5a29" name="Steed of Slaanesh" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="97f0-a3fd-2b92-6f29" name="Steed of Slaanesh" hidden="false" targetId="a184-bd07-f38b-88d0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb7a-f0f6-db85-9993" name="Manticore" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f7e8-caaf-1180-7921" name="Manticore" hidden="false" targetId="b30b-ef2f-f594-afaf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="240.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cd6-c3a6-87a5-a33e" name="Chimera" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="be16-f96b-1f2c-e698" name="Chimera" hidden="false" targetId="3f83-5610-5aa9-e097" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="300.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f7f-460c-80f8-e206" name="Chaos Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3114-672e-1a8f-92cf" name="Chaos Dragon" hidden="false" targetId="0c02-2198-1504-d0c1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="450.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0c86-4915-34d0-5e90" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0b7b-4451-61c9-842f" name="Juggernaut of Khorne" hidden="false" targetId="4a55-694c-0a7c-2937" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="57de-44af-3669-e1cf" name="Disc of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4a67-df60-de12-40c9" name="Disc of Tzeentch" hidden="false" targetId="d89a-08f5-d1a3-7ee2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48ab-ab10-861b-1cab" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="08ef-2acd-3011-2eed" name="Beast of Nurgle" hidden="false" targetId="fbc8-bb4c-bb74-ebcd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db9a-9ad4-4015-a882" name=" Steed of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4ef3-60f0-8ed3-ed9a" name="Steed of Slaanesh" hidden="false" targetId="a184-bd07-f38b-88d0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2bad-67cc-3477-4ade" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a238-304f-0fff-ddea" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2a5b-8d0e-d75c-e837" name="Additional Hand Weapon" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
+            <entryLink id="1bea-f68f-c766-e61b" name="Flail" hidden="false" collective="false" import="true" targetId="c0f4-d976-0c62-1b37" type="selectionEntry"/>
+            <entryLink id="c43a-46dd-1a66-eedb" name="Halberd" hidden="false" collective="false" import="true" targetId="26fe-f48b-e245-e548" type="selectionEntry"/>
+            <entryLink id="701d-fb62-b94c-a1cc" name="Double Handed Weapons" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c622-0aa8-7911-86bd" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry"/>
+        <entryLink id="0b6f-0cce-5c31-179d" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5007-4c67-d0f3-99dc" name="Chaos Hero" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4aba-0431-7786-344c" name="Chaos Hero" publicationId="9411-2672-4c47-b982" page="7" hidden="false" targetId="58d2-57e8-0c39-074f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c693-a25e-cfc7-56a0" name="New CategoryLink" hidden="false" targetId="7086-559b-f3af-ba5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="406a-b089-4639-bb0f" name="Armour" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a4a8-7bdc-1953-5f80" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2ebe-0d01-d537-d3d8" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="50f0-dc59-232a-9597" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a578-2fd0-eac4-e233" name="Light Armour" hidden="false" targetId="284c-4e5f-45fa-963b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="6995-c6e0-3465-c433" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="785b-5169-8946-1fbc" name="Heavy Armour" hidden="false" targetId="be87-4af1-de9d-3d9b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="79d3-86cc-c385-bbc9" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfa-9f15-1261-1a5c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ca5c-7744-fa76-dd46" name="Chaos Warhorse" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="56af-0773-0992-43d8" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="454c-b47b-eff6-60dc" name="barding" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="5bd1-d271-779b-3559" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d30e-b90a-0bd4-2cac" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
+              <rules>
+                <rule id="5776-a1be-fa72-26f6" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false">
+                  <description>A Heavy Chariot pulled by two barded Chaos Warhorses, crewed by two Chaos Warriors with Chaos Armour and halberds (for a combined armour save of 3+). 
+
+Charging, fleeing and pursuing chariots make 
+impact hits when they enter base contact with the 
+enemy, or flee through friendly models. Impact hits are 1D6 hits (+2 if having scythed wheels). Impact hits are inflicted in the beginning of 
+the melee phase before other models have struck. Impact hits are distributed like shooting, so characters in large regiments will go unmolested.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4983-28e0-79e2-80dc" name="Heavy Chariot" hidden="false" targetId="cdbc-2e42-2505-e8c5" type="profile"/>
+                <infoLink id="a952-69d5-9f8a-6072" name="Chaos Warrior" hidden="false" targetId="ed6a-f7f8-19ce-de5a" type="profile"/>
+                <infoLink id="032f-f29e-8581-17ff" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
+                <infoLink id="8d89-0f06-c09a-15ad" name="Halberd" hidden="false" targetId="f9b5-123e-410e-51c0" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7853-7f62-361a-9bd7" name="New CategoryLink" hidden="false" targetId="fc59-3c6f-195c-d608" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="3a84-9536-3d4a-367a" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c030-e049-8b09-77e4" name="Mounts" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b1b-3c2d-9662-36e1" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4db-c83e-43a4-2441" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="e4a2-75ad-a159-b9f7" name="Warhorses" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="9060-a7cf-3682-fcbb" name="Barding for a Warhorse" hidden="false" targetId="05ad-ed9e-9bf9-2a49" type="profile"/>
+                        <infoLink id="a8b9-5db0-c575-56d3" name="Chaos Warhorse" hidden="false" targetId="903b-34a8-34c6-9596" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3e19-7021-d928-9933" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="eadb-4081-f5d0-6457" name="Juggernaut of Khorne" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="4773-5946-bfaa-65a6" name="Juggernaut of Khorne" hidden="false" targetId="4a55-694c-0a7c-2937" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5215-c590-e5e3-d5c0" name="Discs of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="3791-877a-8a06-e97a" name="Disc of Tzeentch" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).  (the chariot can fly, but 
+not fly high)</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="0761-8933-488c-b742" name="Disc of Tzeentch" hidden="false" targetId="d89a-08f5-d1a3-7ee2" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8d7f-9221-eb2b-c6e4" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="518e-4ab7-4395-c71f" name="Beast of Nurgle" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="d8e8-be7c-3408-fc81" name="Beast of Nurgle" hidden="false" targetId="fbc8-bb4c-bb74-ebcd" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="07b1-5774-a434-fcfb" name="Steeds of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="6980-3770-1303-5c81" name="Steed of Slaanesh" hidden="false">
+                          <description>May take Daemonic Mounts instead of Chaos Warhorses, reducing armour save to 4+. Remember a Chaos Army may only include Daemons representing the same Chaos Power as the Mark of Chaos worn by the general (unless the general adheres to Chaos Undivided).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="5380-86c5-cb23-8e67" name="Steed of Slaanesh" hidden="false" targetId="a184-bd07-f38b-88d0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0d91-aadb-06bf-7e00" name="Manticore" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5524-ee14-b921-24d4" name="Manticore" hidden="false" targetId="b30b-ef2f-f594-afaf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="240.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b865-7c4f-5910-a657" name="Chimera" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1a53-6f5d-1f17-8673" name="Chimera" hidden="false" targetId="3f83-5610-5aa9-e097" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="300.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d77-2c32-557f-4995" name="Chaos Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="02c6-67e1-d72f-e8b9" name="Chaos Dragon" hidden="false" targetId="0c02-2198-1504-d0c1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="450.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b99d-a98f-d4c1-ca66" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1c57-0fdc-b68a-8076" name="Juggernaut of Khorne" hidden="false" targetId="4a55-694c-0a7c-2937" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b7ab-0428-2502-1319" name="Disc of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="396b-8f80-3971-a8cf" name="Disc of Tzeentch" hidden="false" targetId="d89a-08f5-d1a3-7ee2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a26-5b8e-ccea-7a7f" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="845a-688b-262a-277f" name="Beast of Nurgle" hidden="false" targetId="fbc8-bb4c-bb74-ebcd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b81a-f744-a5af-28de" name=" Steed of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b0f-9732-e4c7-aa25" name="Steed of Slaanesh" hidden="false" targetId="a184-bd07-f38b-88d0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2725-2b47-4eb9-da3f" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce09-b83f-f4a3-9598" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c144-0b73-0b82-6cb3" name="Additional Hand Weapon" hidden="false" collective="false" import="true" targetId="74ef-a2c8-56a5-5167" type="selectionEntry"/>
+            <entryLink id="7674-9594-9a59-a578" name="Flail" hidden="false" collective="false" import="true" targetId="c0f4-d976-0c62-1b37" type="selectionEntry"/>
+            <entryLink id="10ff-f796-b2d7-226b" name="Halberd" hidden="false" collective="false" import="true" targetId="26fe-f48b-e245-e548" type="selectionEntry"/>
+            <entryLink id="7711-b575-9b6c-a775" name="Double Handed Weapons" hidden="false" collective="false" import="true" targetId="6ec3-fd33-9ff6-183f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="62f6-b944-749b-e0c2" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry"/>
+        <entryLink id="e40a-ec50-9ef5-d30e" name="Magic Item" hidden="false" collective="false" import="true" targetId="02e8-9ecc-e170-3ae7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="130.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -960,6 +1452,77 @@ hand weapons for her many arms (for at total of six attacks), Chaos Armour, the 
       <costs>
         <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="648d-62a2-0a64-c0e0" name="Chaos Mark" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a510-2a90-f51d-8912" name="Chaos Mark" publicationId="9411-2672-4c47-b982" page="4" hidden="false">
+          <description>All Chaos Champions in the Chaos Warrior army must dedicate themselves to a Chaos Power and receive 
+Marks of Chaos to distinguish them from the followers of rival Chaos Powers. These marks grant special abilities as described below. </description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="304e-8e07-d7c4-e7de" name="Mark of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a108-926f-0d7f-6bd0" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e817-a03b-4864-5d7c" name="Mark of Khorne" hidden="false">
+              <description>The Mark of Khorne makes the Champion subject to frenzy. Khorne despises magic, for which reason an army 
+serving Khorne cannot include wizards at all.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="dbdd-39f1-6efe-6842" name="Frenzy" hidden="false" targetId="3a08-7523-5fae-5b77" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="3756-be15-8df8-af09" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6793-62ee-bc90-ddc1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="96dc-50cf-852b-df52" name="Mark of Tzeentch" hidden="false">
+              <description>The Mark of Tzeentch allows the Champion to change one personal die roll during the game to whatever result 
+he desires. Only one die can be altered this way. </description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry id="2634-d7a6-73ea-9168" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce7-9026-4ac4-a064" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4022-53cf-9a20-1427" name="Mark of Nurgle" hidden="false">
+              <description>The Mark of Nurgle gives the Champion +1T.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry id="393d-fba1-af89-4932" name="Mark of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c201-3035-3f4c-d2aa" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="24a0-c4a7-431d-e8a7" name="Mark of Slaanesh" hidden="false">
+              <description>The Mark of Slaanesh makes the Champion unbreakable. Such is the devotion of the Champions of 
+Slaanesh that they never break or flee. Even if their regiment panics or breaks from combat, Champions with 
+the Mark of Slaanesh remain where they are. </description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1a10-e087-99b8-544d" name="Unbreakable" hidden="false" targetId="74dd-32b0-ef5d-d469" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="a812-334d-9950-cac5" name="Mark of Chaos Undivided" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f7c-98c5-3ded-57a1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="dd32-b39c-f1a5-83f4" name="Mark of Chaos Undivided" hidden="false">
+              <description>A Champion serving Chaos Undivided gets +1 LD. Contrary to other Chaos Armies, those armies serving 
+Chaos Undivided may include Daemons serving any Chaos Power</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
