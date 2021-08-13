@@ -1585,6 +1585,9 @@ not fly high)</description>
           <infoLinks>
             <infoLink id="0f19-4780-8d8b-d4ed" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1607,6 +1610,9 @@ not fly high)</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ac15-f629-0329-9bdd" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
               <rules>
@@ -1778,9 +1784,15 @@ not fly high)</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="43ee-2a2f-c431-252c" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="256c-4517-650b-da87" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="dd4e-2341-c04a-821b" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1803,6 +1815,9 @@ not fly high)</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="583c-6831-2e0f-a28c" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
               <rules>
@@ -1974,9 +1989,15 @@ not fly high)</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6e01-255c-e26e-1f9a" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1643-5cec-d6bd-5ac2" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="4daa-497b-3b4b-7bec" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1999,6 +2020,9 @@ not fly high)</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="cbfb-67cb-9cd8-9d76" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
               <rules>
@@ -2152,7 +2176,11 @@ not fly high)</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e9fd-8d7b-8d58-030c" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry"/>
+        <entryLink id="e9fd-8d7b-8d58-030c" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0cbe-d851-7dbc-6429" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="c1f9-c120-0ade-7623" name="Chaos Rewards" hidden="false" collective="false" import="true" targetId="4484-0b92-bae5-48e3" type="selectionEntryGroup"/>
         <entryLink id="b923-d209-b4eb-430c" name="Chaos Rewards" hidden="false" collective="false" import="true" targetId="4484-0b92-bae5-48e3" type="selectionEntryGroup"/>
         <entryLink id="a80b-1f70-9928-0586" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="352f-1518-44f6-dd40" type="selectionEntryGroup"/>
@@ -2170,9 +2198,15 @@ not fly high)</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="06b5-4d87-6a93-250e" name="Chaos Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f4-f981-85ce-d6ae" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="2258-b573-c26a-08f1" name="Chaos Armour" hidden="false" targetId="6dcf-0b72-8514-aeb6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2195,6 +2229,9 @@ not fly high)</description>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b100-4269-ba09-a4aa" name="Chaos Warrior Chariot" publicationId="9411-2672-4c47-b982" page="11" hidden="false" collective="false" import="true" type="unit">
               <rules>
@@ -2348,7 +2385,11 @@ not fly high)</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9e73-30b3-b6e4-b8c9" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry"/>
+        <entryLink id="9e73-30b3-b6e4-b8c9" name="Chaos Mark" hidden="false" collective="false" import="true" targetId="648d-62a2-0a64-c0e0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e4-842c-c239-dd2e" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="4de3-0a60-fe18-b284" name="Chaos Rewards" hidden="false" collective="false" import="true" targetId="4484-0b92-bae5-48e3" type="selectionEntryGroup"/>
         <entryLink id="57c6-ad70-3b11-635e" name="Chaos Rewards" hidden="false" collective="false" import="true" targetId="4484-0b92-bae5-48e3" type="selectionEntryGroup"/>
         <entryLink id="74d4-6811-6887-2be1" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="352f-1518-44f6-dd40" type="selectionEntryGroup"/>
@@ -2576,6 +2617,9 @@ he desires. Only one die can be altered this way. </description>
     <selectionEntryGroup id="4484-0b92-bae5-48e3" name="Chaos Rewards" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="091e-eace-c73b-fae4" name="Hideous Appearance" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f20-2a21-f6cf-9ed9" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="4c8b-ffff-5d6a-286e" name="Hideous Appearance" hidden="false" targetId="0639-6284-734f-5f7e" type="profile"/>
             <infoLink id="6a85-425e-b544-a199" name="Fear" hidden="false" targetId="c26b-a673-ee51-0087" type="rule"/>
@@ -2585,6 +2629,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="3573-4332-fa99-981a" name="Many Arms" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f21-a9a4-cc1b-ef09" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="4e90-5926-9a75-e5ba" name="Many Arms" hidden="false" targetId="c92f-9b02-874c-506b" type="profile"/>
           </infoLinks>
@@ -2593,6 +2640,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="4f93-bf7c-e909-2301" name="Scaly Skin" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b59a-847c-eb24-073a" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="f945-7316-5d91-4101" name="Scaly Skin" hidden="false" targetId="e4d6-051f-ad7e-ca21" type="profile"/>
           </infoLinks>
@@ -2601,6 +2651,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="4133-60f1-4d17-062d" name="Mace Tail " hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="744d-6c33-5996-f3af" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="0461-5ca4-ef92-56af" name="Mace Tail" hidden="false" targetId="979d-47b5-9757-a78c" type="profile"/>
           </infoLinks>
@@ -2609,6 +2662,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="907a-4a14-3998-177b" name="Massive Horns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c71b-d288-7fb2-185e" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="c018-41b6-5033-583a" name="Massive Horns" hidden="false" targetId="b210-43cc-d7cb-6c84" type="profile"/>
           </infoLinks>
@@ -2617,6 +2673,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="bf4e-c45b-49bb-93bd" name="Scorpion Tail" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fec5-2f8f-d23c-b8b1" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="6567-11e9-9de7-c95e" name="Scorpion Tail " hidden="false" targetId="851d-5296-fb00-fcd4" type="profile"/>
           </infoLinks>
@@ -2625,6 +2684,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a54-c3d3-1b10-b75e" name="Iron Hard Skin" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b77c-4af1-60de-1c85" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="f844-a5df-b426-c40e" name="Iron Hard Skin " hidden="false" targetId="68a7-9671-f680-5eff" type="profile"/>
           </infoLinks>
@@ -2633,6 +2695,9 @@ he desires. Only one die can be altered this way. </description>
           </costs>
         </selectionEntry>
         <selectionEntry id="bf6c-4fb0-a648-3e89" name="Regeneration" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b51-deae-8a43-df28" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="9aa4-f2c4-97b2-509a" name="Regeneration" hidden="false" targetId="3470-6e60-b34a-874b" type="profile"/>
           </infoLinks>
@@ -2645,6 +2710,9 @@ he desires. Only one die can be altered this way. </description>
         <selectionEntryGroup id="7777-c4bd-f40f-e4c2" name="Khorne Only" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="fb3c-d8b1-fce0-b241" name="Battle fury of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9a1-1681-30b6-d0d1" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="5a36-7821-1aaa-aaa6" name="Battle fury of Khorne (KHORNE ONLY)" hidden="false" targetId="f303-0ee8-4118-e443" type="profile"/>
               </infoLinks>
@@ -2653,6 +2721,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="ad78-3a29-33f1-c5fa" name="Collar of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3904-bc98-e191-448f" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="24df-42e5-5b72-f7fe" name="Collar of Khorne (KHORNE ONLY)" hidden="false" targetId="13cc-d316-7ce8-eecf" type="profile"/>
               </infoLinks>
@@ -2661,6 +2732,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb1a-652e-e107-e988" name="Khorne’s Chosen " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="365f-f9f0-0cd5-4bf8" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="b08f-5432-dc1b-2819" name="Khorne’s Chosen (KHORNE ONLY)" hidden="false" targetId="0947-3140-5ff6-6465" type="profile"/>
               </infoLinks>
@@ -2673,6 +2747,9 @@ he desires. Only one die can be altered this way. </description>
         <selectionEntryGroup id="b11e-c67c-c337-9955" name="Tzeentch Only" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="4d2b-01db-39bb-7bb4" name="Breathe Fire" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0cec-ee96-4203-8539" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="f712-720d-5a09-c050" name="Breathe Fire (TZEENTCH ONLY)" hidden="false" targetId="9019-22bb-90e3-d4e5" type="profile"/>
               </infoLinks>
@@ -2681,6 +2758,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c67-7b4d-1912-57e1" name="Destiny of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a11-90e1-663c-0c1f" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="130a-553f-41b0-2dc4" name="Destiny of Tzeentch (TZEENTCH ONLY)" hidden="false" targetId="76c1-d129-3a32-86c2" type="profile"/>
               </infoLinks>
@@ -2693,6 +2773,9 @@ he desires. Only one die can be altered this way. </description>
         <selectionEntryGroup id="bc28-3e50-fb00-0369" name="Nurgle Only" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1149-0f0a-1207-628d" name="Nurgle’s Rot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee77-fa62-5291-041a" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="446d-10b5-6da9-5ca7" name="Nurgle’s Rot (NURGLE ONLY)" hidden="false" targetId="2910-2877-2889-4e42" type="profile"/>
               </infoLinks>
@@ -2701,6 +2784,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="4d56-febb-71c5-fd23" name="Nurgle’s Cloud of Flies" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7888-a618-def4-d74c" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="22f2-b43e-1190-3298" name="Nurgle’s Cloud of Flies (NURGLE ONLY)" hidden="false" targetId="2945-7f62-1bed-2f63" type="profile"/>
               </infoLinks>
@@ -2709,6 +2795,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd07-b864-26b3-443a" name="Nurgle’s Foul Odour" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2dc1-2ed9-7a54-ce22" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="886a-1f33-9307-7f42" name="Nurgle’s Foul Odour (NURGLE ONLY)" hidden="false" targetId="10f4-72d2-622e-9050" type="profile"/>
               </infoLinks>
@@ -2721,6 +2810,9 @@ he desires. Only one die can be altered this way. </description>
         <selectionEntryGroup id="ac91-f550-d57d-2867" name="Slaanesh Only" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="b10a-461d-a70d-4236" name="Allure of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e87e-32a5-42a1-000f" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="dd80-09db-228d-7b28" name="Allure of Slaanesh (SLAANESH ONLY)" hidden="false" targetId="5f61-b785-d9d6-6b98" type="profile"/>
               </infoLinks>
@@ -2729,6 +2821,9 @@ he desires. Only one die can be altered this way. </description>
               </costs>
             </selectionEntry>
             <selectionEntry id="028f-aa24-fdcc-b4a0" name="Gaze of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b26d-02a8-7825-68a2" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="c279-9f04-8c11-e252" name="Gaze of Slaanesh (SLAANESH ONLY)" hidden="false" targetId="d8e6-82c5-849c-910a" type="profile"/>
               </infoLinks>
