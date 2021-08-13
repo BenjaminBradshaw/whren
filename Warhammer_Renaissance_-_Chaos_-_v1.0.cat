@@ -611,6 +611,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8570-0df9-9f94-551c" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8226-5455-e781-6204" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -711,6 +714,9 @@ shields (for a combined armour save of 5+)</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8e8f-2aec-f1a4-4061" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0225-49b5-68a8-05f9" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
           </costs>
@@ -960,6 +966,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="0bb2-795b-d44d-5f91" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="341e-0dac-be62-83aa" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -1204,6 +1213,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="3a84-9536-3d4a-367a" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f409-6c35-3b3c-5072" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -1448,6 +1460,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="e0c0-473a-f483-e396" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1799-5018-4d4a-c511" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -1633,6 +1648,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="8876-d80c-0883-525b" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a9-22e6-1ac3-82fa" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -1838,6 +1856,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="9cac-5b35-06ea-deae" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2d-819e-7c29-fe6b" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -2043,6 +2064,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="1bd5-182a-bfe9-7c0c" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ead-05e3-ad02-af19" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
@@ -2252,6 +2276,9 @@ the melee phase before other models have struck. Impact hits are distributed lik
               </categoryLinks>
               <selectionEntries>
                 <selectionEntry id="9eb6-6a7b-ea89-918a" name="Scythed wheels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da53-f400-3d43-8d94" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="fcac-3c52-8cf7-add0" value="20.0"/>
                   </costs>
