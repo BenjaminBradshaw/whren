@@ -1,2 +1,346 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0dcc-5284-948d-7f05" name="Warhammer Renaissance - Dark Elves - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="0dcc-5284-948d-7f05" name="Warhammer Renaissance - Dark Elves - v1.0" revision="1" battleScribeVersion="2.03" authorName="M. Strårup" authorUrl="https://github.com/steampunklolcat/whren" library="false" gameSystemId="1216-28de-7047-6b53" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="5890-9abd-02b6-1d0a" name="Warhammer Armies Dark Elves 2022" shortName="Dark Elves 2022"/>
+  </publications>
+  <sharedProfiles>
+    <profile id="a204-006d-ac79-a7bf" name="First Among Equals (Lord)" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">7</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">7</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73b6-9135-34e5-e073" name="Elven Hero" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f355-148a-3e28-5b15" name="Witch Elf Hero" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">6</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6041-b8a8-854f-1304" name="Elven BSB" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="77d8-1bcb-3fd0-a916" name="Assassin" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">9</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">9</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">10</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b20b-e925-a65a-b453" name="Sorcerer Lord" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">4</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">9</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">3</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6c9d-b296-10b5-4f70" name="Master Sorcerer" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">3</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1277-0de1-4b81-dea9" name="Sorcerer Champion" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9952-fe4e-568e-c774" name="Sorcerer" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="07ae-b002-7510-f5f6" name="Elven Steed" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">9</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d24a-9e77-0532-304f" name="Cold One" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">1</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0860-683e-d9cb-53d5" name="Dark Pegasus" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">8</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">3</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d215-4f06-ea59-c688" name="Manticore" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">7</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">7</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">5</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">4</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6214-f901-aa52-2580" name="Black Dragon" publicationId="5890-9abd-02b6-1d0a" page="3" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">6</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">6</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">7</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">8</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">7</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6b49-bf48-7c5e-aa6f" name="Elven Warriors" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="83a9-3948-b79d-ec3d" name="Elven Beastmasters" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">6</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c5de-d6a8-ffe9-ac20" name="Witch Elves" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb0c-0c9d-24ff-df13" name="Shade" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="acb1-b8f6-ebaa-45fa" name="Executioners" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">6</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9a66-00f1-958f-c2ae" name="Black Guard" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="290e-bbed-6c8e-68b1" name="Harpies" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">4</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">2</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">2</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c620-cf3d-33f8-aace" name="Chaos Hounds" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">7</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">4</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">0</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">4</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">4</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb52-281a-1020-3e54" name="Elven Lords" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">4</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">3</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e29e-e821-0b00-7eba" name="Elven Champion" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0907-0f6e-e5ef-93f7" name="Witch Elf Champion" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">5</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">1</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3587-69ec-e443-086e" name="Elven Commander" publicationId="5890-9abd-02b6-1d0a" page="5" hidden="false" typeId="3f0c-8255-bce5-9c4b" typeName="Profile">
+      <characteristics>
+        <characteristic name="Movement" typeId="2fad-563f-ebbc-532e">5</characteristic>
+        <characteristic name="Weapon Skill" typeId="f778-6332-44be-ae69">6</characteristic>
+        <characteristic name="Ballistic Skill" typeId="a4fc-ae10-9350-fc22">5</characteristic>
+        <characteristic name="Strength" typeId="2186-3de1-32e2-581b">4</characteristic>
+        <characteristic name="Toughness" typeId="718e-f548-d3f7-fe0c">3</characteristic>
+        <characteristic name="Wounds" typeId="6be7-6744-c43d-d6c6">1</characteristic>
+        <characteristic name="Initiative" typeId="2de3-dbe9-2bb0-7faf">7</characteristic>
+        <characteristic name="Attacks" typeId="4aad-cb26-f76c-fe0e">2</characteristic>
+        <characteristic name="Leadership" typeId="285f-9a85-44f8-4ef1">9</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
